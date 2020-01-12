@@ -72,3 +72,20 @@ body {
   position: absolute;
   bottom: 0;
 }
+
+.modal-header {
+  background: $background-dark;
+  .modal-title {
+    color: floralwhite;
+  }
+  button.close {
+    color: floralwhite;
+    :hover {
+      color: floralwhite;
+    }
+  }
+}
+
+.modal-body {
+  background: $background-pale;
+}
