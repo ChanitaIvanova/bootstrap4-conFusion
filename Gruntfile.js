@@ -61,7 +61,6 @@ module.exports = function(grunt) {
         }]
       }
     },
-
     clean: {
       build: {
         src: ['dist/']
@@ -103,7 +102,6 @@ module.exports = function(grunt) {
         }
       }
     },
-
     // Concat
     concat: {
       options: {
